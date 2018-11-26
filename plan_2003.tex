@@ -1,0 +1,136 @@
+The Laser Interferometer Gravitational Wave Observatory (LIGO) is now
+operational and is presently engaged in the search for gravitational
+waves from astrophysical sources~\cite{Abramovici:1992ah,Barish:1999}. The
+detection of gravitational radiation is one of the most eagerly anticipated
+events of twenty-first century physics, with the potential of opening a new
+window on the universe and bringing unprecedented information about the
+physics of strong gravitational fields~\cite{Thorne:1997ut}.
+
+I am particularly interested in gravitational waves as an astronomical tool.
+My work on the detection of inspiralling compact binaries has given me
+experience with the analysis of data from gravitational wave observatories. I
+plan to continue and expand this work to improve the probability of detection
+and to ensure that, once a detection is made, we are in a position to extract
+as much information from the waveform as possible. The interface between theory
+and data analysis presents a unique opportunity to explore new physics and I
+believe that this is where the future of gravitational wave astronomy lies.
+
+
+
+\subsection{Previous Research}
+
+Inspiralling compact binaries are the most promising sources of gravitational
+radiation for the first generation of gravitational wave
+interferometers~\cite{Belczynski:2002}.  On time scales of $10^7$ years, a
+compact binary system loses energy by emitting gravitational waves causing its
+components to spiral together. As the orbit shrinks, it circularizes and the
+period decreases. With LIGO, we search for the gravitational waves that would
+be emitted during the final few seconds of this inspiral. The stars orbit
+hundreds of times per second at separations of tens of km before plunging
+together. Binary neutron star systems could be detected with a reasonable
+signal-to-noise ratio to about 20 Mpc, with an estimated rate of one every
+$2.5$ years when initial LIGO reaches its design 
+sensitivity~\cite{Kalogera:2000dz,Cutler:2001}, although the rate is uncertain
+and could be much lower.
+
+With the inspiral working group of the LIGO Scientific Collaboration (LSC), I
+have developed a data analysis pipeline to detect the inspiral signals from
+binary neutron stars (BNS). My contributions to the analysis have included the
+development and implementation of code to perform the search, applying this
+search code to the large data sets from the interferometers to produce
+candidate events and tuning the pipeline for maximum efficiency with simulated
+signals. I have also been closely involved in the efforts to analyze spurious
+triggers and the statistical interpretation of results. The LSC has completed
+the analysis of data from the first LIGO science run~\cite{Abbott:2003pj}.
+Although no gravitational waves were found, an upper limit on the rate of BNS
+coalescences has been set.
+
+The subject of my thesis is a search for gravitational waves from binary black
+hole Massive Astrophysical Compact Halo Objects (MACHOs).  Observations of
+gravitational microlensing of stars in the Large Magellenic cloud suggest that
+approximately 20\% of the galactic halo is composed of MACHO objects of mass
+$\sim 0.5M_\odot$ and a binary system has been observed in the optical
+microlensing results~\cite{Alcock:2000ph}. If MACHOs are primordial black holes
+formed in the early universe then the chirp signals from their coalescence
+will be detectable by LIGO~\cite{Nakamura:1997sm}. My thesis involves
+searching for these signals in the data from the second and third LIGO science
+runs.  In the absence of a detection, I will place a limit on the component of
+the halo that may be in primordial black holes.
+
+\subsection{Hierarchical Inspiral Searches}
+
+As the low frequency sensitivity of the LIGO interferometers improves and the
+regions of parameter space that we wish to explore grow, the computational
+power required to perform a templated inspiral search increases significantly.
+A search that is computationally limited may decrease the chance of making a
+detection, preventing us from extracting all the astrophysical information
+from that data that we may wish. For example, we may be forced to
+exclude binary systems with spin.
+
+It has been proposed that computational demands could be reduced by developing
+a multi-stage or \emph{hierarchical} search
+strategy~\cite{Mohanty:1996bw,Mohanty:1998eu,Tanaka:2000xy}. A template bank
+that coarsely covers the parameter space of interest is generated. This is
+used to trigger a search on areas of the parameter space with a refined
+template bank. By using the coarse bank to guide the search to only those
+areas of the parameter space where interesting signals may lie, the
+processing time required to perform a deep search can be reduced. 
+
+The inspiral code that I have developed has been designed with the goal of
+hierarchical searches in mind.  Although hierarchical searches have been
+studied with simulated data or small amounts of real data, performance in
+large data sets has not been studied. Using the experience from flat searches
+in LIGO data, I plan to study the performance of hierarchical searches in
+large data sets from single and multiple interferometers.
+
+\subsection{Extracting Information from Binary Inspiral Signals}
+
+Once a binary inspiral has been detected, the goal is to extract as much of
+the physics as possible about the event. It will be essential to assess the
+statistical and systematic uncertainties of parameters extracted from the
+data. The anticipated errors have been estimated in the high signal-to-noise
+limit~\cite{Finn:1993xs,Chernoff:1993th,Cutler:1994}. These studies have not
+used data from real interferometers, however, nor have they examined the
+uncertainties obtained when digging deep in the interferometer
+noise, as may be necessary with a detection in first generation
+interferometers. In order to characterize the behavior of real data, large
+scale Monte-Carlos will be needed. I plan to apply my experience with
+Monte-Carlo simulations to the problem of parameter extraction and error
+estimation.
+
+Patrick Brady and Chuck Evans (University of North Carolina) have studied the
+information that can be extracted from higher harmonics of the gravitational
+wave signal from binary black hole inspiral. The quadrupolar inspiral signal
+ends at a lower gravitational wave frequency than the higher harmonics of the
+waveform.  The higher harmonics, therefore, have more cycles in the sensitive
+band of the interferometer and so can contribute more to the signal-to-noise
+ratio of the inspiral than the quadrupolar waveform.  I plan to work with
+Brady and Evans to include higher
+harmonics in the inspiral template families and so increase the probability of
+making a detection. In the presence of a signal, we will also be able to
+extract more information about the behavior of the binary system.
+
+\subsection{Development of Search Codes for the GRID}
+
+The purpose of GRID computing is to allow scientists to leverage large amounts
+of computational power transparently and involves a significant research
+component that straddles both computer science and astronomy. The inspiral
+search code that I have developed is designed for the GRID environment.  My
+goal is to collaborate with members of the computer science community to allow
+the LSC to access as much computing power as possible for gravitational wave
+astronomy.  The aim of the work is to ensure that we are not restricted in the
+size of the parameter space that we can explore. My experience with tools such
+as Condor and Globus are assets in this effort to leverage the power of the
+GRID.
+
+\subsection{Instrumental Origins of Inspiral Triggers}
+
+A problem encountered when searching for inspiral signals in real
+interferometer data is triggering of search algorithms by events that are of
+instrumental origin, rather than from astrophysical sources. Using the tools
+that I have developed I am able to quickly analyze data through the inspiral
+search. I would like to work with instrumental experts to characterize the
+response of search algorithms to detector artifacts. To this end, I am
+enthusiastic to spend time at the observatory sites and to learn more about
+the behavior and performance of gravitational wave interferometers.
+

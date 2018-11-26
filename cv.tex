@@ -1,0 +1,924 @@
+\documentclass{cv}
+\usepackage{multicol}
+\usepackage{palatino}
+\usepackage{version}
+\usepackage[text={6in,9in},top=1.2in,letterpaper]{geometry}
+\newcommand\urlprefix{}
+
+\newif\ifresearch
+\newif\ifpublications
+\researchtrue
+\publicationstrue
+
+\ifresearch
+\includeversion{Research}
+\else
+\excludeversion{Research}
+\fi
+
+\ifpublications
+\includeversion{Publications}
+\else
+\excludeversion{Publications}
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%% form a only 
+%\linespread{1.05}
+\oddsidemargin=0pt
+\evensidemargin=0pt
+\textwidth=6.5in
+\topmargin=0pt
+\headheight=0pt
+\headsep=0pt
+\textheight=9in
+% EXPERIMENTAL
+%\parindent=0pt
+%\parskip=3pt
+\setlength{\parindent}{0.25cm}
+\newcommand\secfont{\fontfamily{cmss}\selectfont}%\textwidth 5.5truein
+\newcommand\pifheading[1]{\noindent{\secfont\textbf{#1}:}}
+%\oddsidemargin -0.40truein
+%\textheight 8.0truein
+%\topmargin -0.25truein
+\def\lo{
+\mathrel{\raise.3ex\hbox{$<$}\mkern-14mu\lower0.6ex\hbox{$\sim$}}
+}
+\def\hi{
+\mathrel{\raise.3ex\hbox{$>$}\mkern-14mu\lower0.6ex\hbox{$\sim$}}
+}
+
+\textwidth = 6.6 in
+\textheight = 9 in
+\oddsidemargin = -0.05 in
+\evensidemargin = +0.05 in
+\topmargin = -.1 in
+\headheight = 14pt
+\headsep = 25pt
+\parskip = 0.05in
+\voffset = -0.4in
+\newcommand\registered{{\ooalign{\hfil\raise .00ex\hbox{\scriptsize R}\hfil\crcr\mathhexbox20D}}}
+%%%%%%%%%%%%%%%%%%%
+
+%%
+%% Page/Section definitions for NSF proposals
+%%
+%\def\nsfsection{A}
+%\def\thesection{\nsfsection-\Roman{section}}
+%\def\thesubsection{\Roman{section}.\Alph{subsection}}
+%\def\thesubsection{\arabic{subsection}}
+%\def\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+%\def\thepage{\nsfsection\arabic{page}}
+
+\excludeversion{Research}
+\includeversion{Publications}
+\excludeversion{References}
+\includeversion{Personal}
+
+\name{Duncan Alexander Brown}
+
+\begin{Personal} % Optional inclusion of personal information
+\personal{
+  \begin{tabular}{lr}
+    Date of birth & 25~January 1976 \\
+    Citizenship   & United States\\
+  \end{tabular}
+}
+
+\address{Department of Physics\\
+         Syracuse University\\
+         Syracuse, NY 13244, USA}
+\contact{E-mail: \lowercase{dabrown@syr.edu}\\
+         Phone: (315) 443-5993\\
+         Fax: (315) 443-9103}
+\end{Personal}
+\begin{document}
+
+%\setcounter{page}{2}
+\vspace*{-0.5cm}
+\section{Employment}
+\begin{entry}
+  \item[2015--]Charles Brightman Professor of Physics\\
+               Department of Physics,\\
+               Syracuse University
+  \item[{2012}]
+    Visiting Associate in Physics,\\
+    California Institute of Technology
+  \item[2011--2015]Associate Professor\\
+               Department of Physics,\\
+               Syracuse University
+  \item[2007--2011]Assistant Professor\\
+               Department of Physics,\\
+               Syracuse University
+  \item[2004--2007]Postdoctoral Scholar in Physics\\
+               LIGO Laboratory and Theoretical Astrophysics and Relativity
+               Group, \\
+               California Institute of Technology
+  \item[{2002}]
+    Visitor in Physics\\
+    California Institute of Technology
+  \item[{2000}]
+    Visitor in Physics\\
+    California Institute of Technology
+  \item[{2000}--{2004}]
+    Research Assistant, LIGO Scientific Collaboration Group\\
+    Center for Gravitation and Cosmology, \\
+    University of Wisconsin--Milwaukee
+\end{entry}
+
+\vspace*{-0.5cm}
+\section{Education}
+\begin{entry}
+  \item[1999--2004]Doctor of Philosophy in Physics\\
+               University of Wisconsin--Milwaukee \\
+  \item[1994--1999] Master of Mathematics with First Class Honors\\
+   University of Newcastle Upon Tyne \\
+\end{entry}
+
+%\newpage
+
+\vspace*{-0.5cm}
+\section{Honors and Awards}
+\begin{entry}
+  \item[{2017}] PEARC17 Best Software and Data Paper
+  \item[{2016}] Syracuse University Physics Department Teaching Award
+  \item[{2016}] Gruber Cosmology Prize (shared with the LIGO Scientific Collaboration)
+  \item[{2016}] Breakthrough Prize in Fundamental Physics (shared with the LIGO Scientific Collaboration)
+  \item[{2015}] Research Corporation for Science Advancement Scialog Fellow
+  \item[{2014}] Fellow of the American Physical Society
+  \item[{2013}] Syracuse University Physics Department Teaching Award
+  \item[{2011}] Syracuse University Physics Department Teaching Award
+  \item[{2010}] Research Corporation Cottrell Scholar
+  \item[{2010}] Syracuse University Meredith Teaching Recognition Award
+  \item[{2010}] Syracuse University Physics Department Teaching Award
+  \item[{2009}] Kavli Frontiers Fellow
+  \item[{2008}] National Science Foundation CAREER Award
+  \item[{2003}] UWM Dissertator Fellowship
+  \item[{2002}] UWM Physics Graduate Student Trust Fund Award
+  \item[{2002--2003}] UWM Chancellor's Graduate Student Fellowship
+  \item[{2002}] UWM Graduate School Fellowship
+  \item[{2001}] UWM Papastamatiou Scholarship
+  \item[{1999}] Institute of Mathematics and Its Applications Prize
+  \item[{1997}] University of Newcastle Stroud Book Prize
+\end{entry}
+
+\vspace*{-0.5cm}
+\section{Conference and Workshop Organization}
+\begin{entry}
+  \item[{2017}] Kavli Institute for Theoretical Physics Rapid Response Program:
+  Astrophysics from a Neutron Star Merger (Co-organizer)
+  \item[{2017}] Kavli Institute for Theoretical Physics High-School Teacher's Conference:
+  How to catch a gravitational wave: Exploring the universe with LIGO (Organizer)
+  \item[{2016}] Kavli Institute for Theoretical Physics Rapid Response Program:
+  Astrophysics from LIGO’s First Black Holes (Co-organizer)
+  \item[{2016}] Chair of 2016 Gordon Research
+  Conference: Physics Research and Education (Relativity and Gravitation: Contemporary Research and Teaching of Einstein's Physics).
+  \item[{2014}] Vice-chair of 2014 Gordon Research
+  Conference: Physics Research and Education (The Complex Intersection of Biology and Physics).
+  \item[{2012}] Kavli Institute for Theoretical Physics Three
+  Month Program: Chirps, Mergers and Explosions (Co-organizer)
+  \item[{2012}] Gravitational Wave Physics and Astronomy Workshop, Scientific
+  Organizing Committee
+  \item[{2011}] Amaldi 9 and NRDA: Scientific Organizing Committee
+  \item[2008] { Numerical Relativity and Data Analysis 2008: Chair, Scientific Organizing Committee}
+\end{entry}
+
+%\newpage
+
+\begin{Publications}
+%\newpage
+\section{Publications}
+
+\subsection{Papers Submitted for Publication}
+
+\pubs[cv-cond]{prep}
+
+\subsection{Refereed Publications (including LIGO Scientific Collaboration papers to which Brown has made a significant contribution)}
+
+\pubs[cv-cond]{ref}
+
+\subsection{Other Refereed Publications}
+
+\pubs[cv-cond]{lvc}
+
+\iffalse
+\subsection{Technical Reports}
+\pubs[cv-cond]{tech}
+\fi
+\end{Publications}
+
+%\newpage
+
+\section{Research Grants}
+\begin{wideentry}
+\item[{Principal} Investigator]{Gravitational Wave Physics and Astronomy with Advanced LIGO)}\\
+{\small National Science Foundation Award PHY-1707954\\
+July 1, 2017--June 30, 2020: \$360,000}\\
+
+\item[Co-{Principal} Investigator]{CICI: CE: SciTokens: Capability-Based Secure Access to Remote Scientific Data}\\
+{\small National Science Foundation Award OAC-1738962\\
+July 1, 2017--June 30, 2019: \$1,000,000}\\
+
+\item[Co-{Principal} Investigator]{The CSUF-Syracuse partnership for inclusion of underrepresented groups in gravitational-wave astronomy}\\
+{\small National Science Foundation Award AST-1559694\\
+August 1, 2016--July 31, 2021: \$937,368}\\
+
+\item[Co-{Principal} Investigator]{CC$\ast$DNI Engineer: Leading the way for research computing at Syracuse University and beyond}\\
+{\small National Science Foundation Award ACI-1541396\\
+September 1, 2015--August 31, 2017: \$396,098}\\
+
+\item[Principal Investigator]{CIF21 DIBBs: Domain-aware management of heterogeneous workflows: Active data management for gravitational-wave science workflows}\\
+{\small National Science Foundation Award ACI-1443047\\
+September 1, 2014--August 31, 2017: \$900,000}\\
+
+\item[Principal Investigator]{Computational Optimization for High-Latency Compact Binary Searches in Advanced LIGO}\\
+{\small Sub-contract from California Institute of Technology\\
+August 1, 2014--July 31, 2015: \$335,264}\\
+
+\item[Principal Investigator]{Gravitational Wave Astrophysics With Advanced LIGO}\\
+{\small National Science Foundation Award PHY-1404395\\
+July 1, 2014--June 30, 2017: \$360,000}\\
+
+\item[Principal Investigator]{Collaborative Research: Theoretical-Computational Network for Extracting Astrophysics and Fundamental Physics from Multi-Messenger Observations of Compact Objects}\\
+{\small National Science Foundation Award AST-1333142\\
+September 1, 2013--August 31, 2016: \$385,442}\\
+
+\item[Co-{Principal} Investigator]{CC-NIE Networking Infrastructure: Enhancing the OrangeGrid - Upgrading the Syracuse Campus Network to Enable High Throughput Research Computing}\\
+{\small National Science Foundation Award PHY-1341006\\
+September 1, 2013--August 31, 2015: \$498,452}\\
+
+\item[Co-{Principal} Investigator]{Data Handling and Analysis Infrastructure for Advanced LIGO and Beyond}\\
+{\small National Science Foundation Award PHY-1104371\\
+December 15, 2011--December 15, 2016: \$9,000,000\\
+Sub-contract to Syracuse University: \$2,250,000}
+
+\item[Principal Investigator]{Exploring the universe with gravitational waves: a new frontier in 21st-century astronomy and astrophysics}\\
+{\small Research Corporation for Science Advancement Cottrell Scholar Award\\
+November 15, 2010--November 14, 2013: \$75,000}
+
+\item[Principal Investigator]{Major Research Instrumentation:
+Development of a High-Throughput Computing Cluster for 
+Gravitational-Wave Data Analysis and High-Energy Physics}\\
+{\small National Science Foundation Award PHY-1040231\\
+September 1, 2010--August 31, 2013: \$807,619}
+
+\item[Principal Investigator]{CAREER: An Integrated Research and Education
+Proposal in \\Gravitational Wave Astronomy and Astrophysics}\\
+{\small National Science Foundation Award PHY-0847611\\
+April 1, 2009--March 31, 2014: \$550,000}
+
+\item[Co-{Principal} Investigator]{Enabling Gravitational-Wave Astronomy on the LIGO Data
+Grid}\\
+{\small National Science Foundation Sub-award K087577 (Prime award PHY-0600953)\\
+January 28, 2008--October 31, 2011: \$819,814}
+
+\item[Principal Investigator]{Student Travel for Numerical Relativity and Data Analysis 2008 Conference}\\
+{\small National Science Foundation Award PHY-0838740\\
+August 30, 2008--July 31, 2009: \$5,000}
+
+
+\item[Principal Investigator]{Syracuse University Gravitational-Wave Group 
+Computing\\ Cluster}\\
+{\small Sun Microsystems Academic Excellence Grant EDUD-7824-080104-US\\
+August 31, 2007: \$20,574}
+
+\end{wideentry}
+
+
+\section{Invited Presentations}
+\begin{entry}
+\item[December 2017] JINA Panel Discussion: The impact of the LIGO/VIRGO Neutron Star Merger Discovery on Research in Nuclear Science and Nuclear Astrophysics (Presenter),\\
+{\small Joint Institute for Nuclear Astrophysics}
+
+\item[October 2017] {GW170817: The Detection of a 
+Binary Neutron Star Merger in Gravitational and Electromagnetic waves},\\
+{\small Columbia University Physics Colloquium, New York, NY}
+
+\item[October 2017] {GW170817: The Detection of a 
+Binary Neutron Star Merger in Gravitational and Electromagnetic waves},\\
+{\small Ohio University Physics Colloquium, Athens, OH}
+
+\item[June 2017] {Calibration, Data Quality and Vetos: Now and the upcoming challenges},\\
+{\small Gravitational Wave Physics and Astronomy workshop, Annecy, France}
+
+\item[August 2016] {Syracuse University Undergraduate Student Convocation},\\
+{\small Syracuse, NY}
+
+\item[May 2017]{The Observation of Gravitational Waves from a Binary Black Hole Mergers by LIGO},\\
+{\small Waves 2017, University of Minnesota, Minneapolis, MN}
+
+\item[April 2017]{The Observation of Gravitational Waves from a Binary Black Hole Mergers by LIGO},\\
+{\small Society of Quantitative Analysis, New York, NY}
+
+\item[March 2017]{International Gravitational-Wave Projects}m\\
+{\small Phenomena, Physics, and Puzzles Of Massive Stars and their Explosive Outcomes, Kavli Institute for Theoretical Physics, Santa Barbara, CA}
+
+\item[June 2016] {The Observation of Gravitational Waves from Binary Black Hole Mergers by LIGO},\\
+{\small Kavli Institute for Theoretical Physics, Santa Barbara, CA}
+
+\item[June 2016] {The Observation of Gravitational Waves from a Binary Black Hole Merger by LIGO},\\
+{\small Princeton Plasma Physics Laboratory, Princeton, NJ}
+
+\item[June 2016] {Gravitational-Wave Astronomy},\\
+{\small ICNT and JINA-CEE program ``The r-process nucleosynthesis: connecting FRIB with the cosmos,'' East Lansing, MI}
+
+\item[May 2016] {Exploring the Physics of Neutron Stars with Gravitational-Wave Astronomy},\\
+{\small Neutron Stars in the Multi-Messenger Era: Prospects and Challenges, Ohio University, Athens, OH}
+
+\item[May 2016] {The Observation of Gravitational Waves from a Binary Black Hole Merger by LIGO},\\
+{\small The first observation of a binary black hole merger: Status and future prospects, Albert Einstein Institute, Hannover, Germany}
+
+\item[April 2016] {Exploring the Physics of Compact Objects with 
+Gravitational-Wave Astronomy},\\
+ {\small Division of Nuclear Physics and Astrophysics, Americal Physical Society April Meeting, Salt Lake City, UT}
+
+\item[April 2016] {Beyond LIGO's first detection of gravitational waves},\\
+{\small GR100$++$ at Princeton Center for Theoretical Science, Princeton
+University, Princeton, NJ}
+
+\item[March 2016] {The Observation of Gravitational Waves from a Binary Black Hole Merger},\\
+{\small Physics and Astronomy Colloquium, Johns Hopkins University, 
+Baltimore, MD}
+
+\item[March 2016] {The Observation of Gravitational Waves from a Binary Black Hole Merger},\\
+{\small Kavli Foundation Special Symposium on Physics Frontiers, APS March
+Meeting, Baltimore, MD}
+
+\item[July 2015] {Lectures on Detecting Coalescing Binaries},\\
+{\small Caltech Gravitational Wave Astrophysics School, Pasadena, CA}
+
+\item[February 2015] {Gravitational Waves: A New Frontier in 21st Century
+Astrophysics},\\
+{\small Physics Department Colloquium, Carnegie Mellon University, Pittsburgh, MA}
+
+\item[November 2014] {Gravitational Waves: A New Frontier in 21st Century
+Astrophysics},\\
+{\small Physics Department Colloquium, Cornell University, NY}
+
+\item[October 2014] {Gravitational Waves: A New Frontier in 21st Century
+Astrophysics},\\
+{\small Giant Magellan Telescope Community Science Meeting, Smithsonian
+Intitution, Washington DC}
+
+\item[September 2014] {Gravitational Waves: A New Frontier in 21st Century
+Astrophysics},\\
+{\small Physics Department Colloquium, Massachusetts Institute of Technology,
+MA}
+
+\item[June 2014] {Gravitational-Wave Astronomy with Advanced LIGO},\\
+{\small Royal Society Gamma Ray Burst Workshop, Chichley Hall, UK}
+
+\item[November 2013] {Measuring the parameters of compact binary coalescence with aLIGO},\\
+{\small TCAN Workshop, California Institute of Technology, CA}
+
+\item[April 2013] {The New Astronomy of LIGO: Exploring the
+Gravitational-wave Sky},\\
+{\small Physics Department Colloquium, University of Florida, FL}
+
+\item[February 2013] {Challenges in searching for compact binary coalescence with aLIGO},\\
+{\small Seminar, Caltech--JPL Association for Gravitational-wave Research, California Institute of Technology, CA}
+
+\item[December 2012] {Gravitational Waves: A New Frontier in 21st Century
+Astrophysics},\\
+{\small Enrio Fermi Institute Colloquium, University of Chicago, IL}
+
+\item[November 2012] {The New Astronomy of LIGO},\\
+{\small Physics Department Colloquium, University of Washington, WA}
+
+\item[November 2012] {Challenges in Advanced LIGO's Binary Black Hole Search},\\
+{\small Numerical Relativity Seminar, California Institute of Technology, CA}
+
+\item[October 2012] {Chirps, Mergers and Explosions},\\
+{\small LIGO Seminar, California Institute of Technology, CA}
+
+\item[August 2012] {The New Astronomy of LIGO: Exploring the Gravitational Wave Sky},\\
+{\small Director's Blackboard Talk, Kavli Institute for Theoretical Physics,
+CA}
+
+\item[July 2012] {The New Astronomy of LIGO},\\
+{\small NASA Education Ambassador Training, Sonoma State University, CA}
+
+\item[June 2012] {The New Astronomy of LIGO},\\
+{\small 2012 Physics Research and Education Gordon Research Conference, Colby College, ME}
+
+\item[May 2012] {Commissioning and Observing Scenarios for LIGO and Virgo},\\
+{\small LIGO Astronomy and Astrophysics Advisory Panel, Caltech, Pasadena, CA}
+
+\item[May 2012] {Connecting the Electromagnetic and Gravitational Wave Skies in the Era of Advanced LIGO}\\
+{Princeton Center for Theoretical Science, Princeton, NJ}
+
+\item[March 2012] {The New Astronomy of LIGO},\\
+{\small Liverpool Public Library, Liverpool, NY}
+
+\item[August 2011] {Invited Lecturer},\\
+{\small 2011 International School on Numerical Relativity and Gravitational
+Waves, SPCTP, Pohang, Korea}
+
+\item[July 2011] {The New Astronomy of LIGO},\\
+{\small University of Nebraska--Lincoln, Lincoln, NE}
+
+\item[July 2011] {Improving the Laboratory Experience for Non-Science Majors},\\
+{\small Cottrell Scholar's Conference, Research Corporation for Science
+Advancement, Tucson, AZ}
+
+\item[May 2011] {Gravitational Wave Astronomy with LIGO and Virgo},\\
+{\small Advances and Challenges in Computational Relativity, Brown University,
+RI}
+
+\item[April 2011] {LIGO's Interactions with the Numerical Relativity Community},\\
+{\small LIGO Astronomy and Astrophysics Advisory Panel, Caltech, CA}
+
+\item[November 2010] {Gravitational Wave Astronomy with LIGO and Virgo},\\
+{\small Physics Colloquium, Cal State Fullerton, CA}
+
+\item[October 2010] {Searching for Coalescing Compact Binaries using LIGO and
+Virgo},\\
+{\small Gravitational Waves 2010, University of Minnesota, MN}
+
+\item[September 2010] {Gravitational Wave Astronomy with LIGO and Virgo},\\
+{\small Physics Colloquium, Syracuse University, NY}
+
+\item[July 2010] {Searching for Compact Binaries using LIGO and Virgo},\\
+{\small 19th International Conference on General Relativity and Gravitation,
+Mexico City, Mexico}
+
+\item[March 2010] {Gravitational Wave Astronomy with LIGO and Virgo},\\
+{\small Department of Astronomy and Astrophysics Colloquium, University of
+Toronto}
+
+\item[January 2010] {LIGO's Need for Cyberinfrastructure},\\
+{\small National Science Foundation Office of Cyberinfrastrcuture, Washington
+D.C.}
+
+\item[October 2009] {Gravitational Wave Astronomy with LIGO},\\
+{\small Challenges in Computational Astrophysics, Princeton Center for
+Theoretical Science}
+
+\item[July 2009] {The LIGO Scientific Collaboration's Interaction with the
+Numerical Relativity Community},\\
+{\small LIGO Program Advisory Committee, Massachusetts Institute of Technology}
+
+\item[April 2009] {Towards Gravitational Wave Astronomy with LIGO},\\
+{\small California Institute of Technology}
+
+\item[April 2009] {Towards Gravitational Wave Astronomy with LIGO},\\
+{\small Rochester Institute of Technology}
+
+\item[February 2009] {Searches for Gravitational Waves from Compact Binary Coalescence},\\
+{\small Center for Gravitational Wave Physics, The Pennsylvania State University}
+
+\item[January 2009] {Results of the Numerical INJection Analysis (NINJA) Project},\\
+{\small 13th Gravitational Wave Data Analysis Workshop, San Juan, Puerto Rico}
+
+\item[April 2008] {Searches for Gravitational Waves from the Inspiral of Binary \\ Neutron Stars and Black Holes},\\
+{\small Americal Physical Society Meeting, St.~Louis, MO}
+
+\item[January 2008] {Director's Blackboard Seminar},\\
+{\small Kavli Institute For Theoretical Physics, Santa Barbara, CA}
+
+\item[November 2007] {Physics Colloquium},\\
+{\small Rochester Institute of Technology}
+
+\item[November 2007] {LIGO Inspiral Analysis and Computing: Where are we now and where do we want to be in 6 months?},\\
+{\small Workshop on Computing Workflows, University of Wisconsin--Milwaukee}
+
+\item[March 2007] {Physics Colloquium},\\
+{\small University of Wisconsin--Milwaukee}
+
+\item[March 2007] {Physics Colloquium},\\
+{\small Syracuse University}
+
+\item[November 2006]{ Searching for Gravitational Waves From Compact
+Binaries},\\
+{\small Numerical Relativity and Data Analysis Conference 2006, Massachusetts Institute of Technology}
+
+\item[October 2006] {LIGO/LSC Analysis Software:Case Study of Inspiral Analysis},\\
+{\small National Science Foundation LIGO Annual Review, LIGO Hanford
+Observatory}
+
+\item[July 2006] {LIGO's Search for Inspiralling Binaries},\\
+{\small LIGO Program Advisory Committee, California Institute of Technology}
+
+\item[May 2006] {LIGO, Gravitational Waves and Einstein at Home},\\
+{\small Public Lecture at Riverside Community College, CA}
+
+\item[Aug 2006] {The Search for Gravitational Waves with LIGO},\\
+{\small 6th Rencontres du Vietnam}
+
+\item[Apr 2006] {Searching for Gravitational Waves with LIGO},\\
+{\small Physics Colloquium, Whittier College, CA}
+
+\item[November 2005] {Running the Inspiral Analysis on non-LSC Grid Computing Resources},\\
+{\small National Science Foundation LIGO Annual Review, California Institute
+of Technology}
+
+\item[September 2004] {Searching for Gravitational Radiation from Binary Inspiralswith LIGO},\\
+{\small Physics Colloquium, University of Wisconsin--Milwaukee}
+
+\item[Feb 2004] {Searching for Primordial Black Hole Binaries with LIGO},\\
+{\small California Institute of Technology}
+
+\item[Jan 2004] {Searching for Gravitational Waves from Binary Inspiral 
+with LIGO: Current Status and Future Plans},\\
+{\small Louisiana State University}
+\end{entry}
+
+\iffalse
+\section{Contributed Presentations}
+\begin{entry}
+
+\item[March 2010] {Compact Binary Coalscence Workflow Management Using Pegasus},\\
+{\small LIGO Scientific Collaboration Meeting, Arcadia, CA}
+
+\item[November 2009]{ Gravitational Wave Astronomy with the Laser Interferometer Gravitational-wave Observatory}
+{\small Kavli Frontiers of Science Symposium, National Academy of Sciences,
+Irvine, CA}
+
+\item[September 2009] {Status of Compact Binary Coalscence VSR2-S6a Analysis},\\
+{\small LIGO Scientific Collaboration Meeting, Budapest, Hungary}
+
+\item[July 2009] {The Effect of Eccentricity in LIGO’s Search for Gravitational Waves from Compact Binaries},\\
+{\small Numerical Relativity and Data Analysis Conference 2009, Albert Einstein Institute, Potsdam, Germany}
+
+\item[June 2009] {Compact Binary Coalscence Group S6/VSR2 Plans},\\
+{\small LIGO Scientific Collaboration Meeting, Laboratoire de l'accel\'erateur lin\'eaire, Orsay, France}
+
+\item[December 2008]{Internet2 DCN: Success from an end-user’s perspective},\\
+{\small New York State Grid Meeting, New York University, NY}
+
+\item[December 2008] {Compact Binary Coalscence Group S6/VSR2 Plans},\\
+{\small LIGO Scientific Collaboration Meeting, Massachusetts Institute of Technology}
+
+\item[March 2008]{Results of the S5 1st Year Low Mass Compact Binary Coalscence Search},\\
+{\small LIGO Scientific Collaboration Meeting, Arcadia, CA}
+
+\item[June 2006]{S5 Binary Neutron Star Search},\\
+{\small LIGO Scientific Collaboration Meeting, Massachusetts Institute of Technology}
+
+\item[April 2006] {The LIGO Scientific Collaboration Search for Inspiralling Binary Neutron Stars},\\
+{\small American Physical Society Meeting, Dallas, TX}
+
+\item[March 2006] {S5 Online Inspiral Analysis},\\
+{\small LIGO Scientific Collaboration Meeting, LIHO Hanford Observatory}
+
+\item[March 2005] {S4 Online Inspiral Search},\\
+{\small LIGO Scientific Collaboration Meeting, Baton Rouge, LA}
+
+\item[March 2005] {Using Condor for Large Scale Data Analysis within the LIGO Scientific Collaboration},\\
+{\small Condor Week 2005, University of Wisconsin}
+
+\item [August 2004] {Grid Development and Deployment of LIGO Scientific Collaboration Data Analysis Software},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Hanford Observatory}
+
+\item [November 2004] {S2 MACHO Search Results},\\
+{\small LIGO Scientific Collaboration Meeting, Massachusetts Institute of Technology}
+
+\item [August 2004] {S2 Macho Search Status},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Hanford Observatory}
+
+\item[July 2004] {Results from Searches for Gravitational Waves from Binary Inspirals with LIGO},\\
+{\small 17th International Conference on General Relativity and Gravitation,
+Dublin, Ireland}
+
+\item[March 2004]{ S3 Binary Neutron Star Search}
+{\small LIGO Scientific Collaboration Meeting, LIGO Livingston Observatory}
+
+\item[March 2004]{Status of Binary Black Hole MACHO Search}
+{\small LIGO Scientific Collaboration Meeting, LIGO Livingston Observatory}
+
+\item[December 2003] {Searching for Gravitational Waves from Binary Inspirals with LIGO},\\
+{\small 8th Gravitational Wave Data Analysis Workshop, University of
+Wisconsin--Milwaukee}
+
+\item[November 2003] {Tuning the Inspiral Pipeline With Injections},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Hanford Observatory}
+
+\item[August 2003] {Status of Standalone Inspiral Code},\\
+{\small LIGO Scientific Collaboration Meeting, Hannover, Germany}
+
+\item[August 2003] {S2 Inspiral Hardware Injections},\\
+{\small LIGO Scientific Collaboration Meeting, Hannover, Germany}
+
+\item[July 2003] {Testing the LIGO Inspiral Analysis with Hardware Injections},\\
+{\small The 5th Edoardo Amaldi Conference on Gravitational Waves, Pisa, Italy}
+
+\item[March 2003] {Online Inspiral Search Monitor},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Livingston Observatory}
+
+\item[March 2003] {Inspiral Group Calibration Studies},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Livingston Observatory}
+
+\item[December 2002] {Searching for Binary Neutron Stars with LIGO},\\
+{\small 7th Gravitational Wave Data Analysis Workshop, International Institute for Advanced Studies, Kyoto, Japan}
+
+\item[March 2002] {Binary Inspiral Templated Search Code},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Livingston Observatory}
+
+\item[September 2002]{The LIGO Scientiﬁc Collaboration Search for Inspiralling Binary Neutron Stars},\\
+{\small 12th Midwest Relativity Meeting, University of Chicago}
+
+\item[March 2001] {How Do I Write Search Code To Run Under LDAS?},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Livingston Observatory}
+
+\item[August 2000] {Binary Inspiral Hierarchical Search Code},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Hanford Observatory}
+
+\item[March 2000] {Binary Inspiral Hierarchical Search Code},\\
+{\small LIGO Scientific Collaboration Meeting, LIGO Livingston Observatory}
+
+\end{entry}
+\fi
+
+\section{Students and Postdocs Supervised}
+\begin{entry}
+\item[Postdoctoral \\Researchers] {Ryan Fisher, Ian Harry, Eliu Huerta, Benjamin Lackey, Andrew Lundgren, Ping Wei, Laura Nuttall, Jedidah Isler.}
+
+\item[Graduate Students] {Collin Capano (Ph.D. 2012), Larne Pekowsky (Ph.D. 2012), Kayleigh Ayn Boh\'emier (MLIS 2012, co-supervised with Jian Qin), Prayush Kumar (Ph.D. 2014), 
+Alex Nitz (Ph.D. 2015), Christopher Biwer (Ph.D. 2017), Swetha Bhagwat (expected 2018), Steven Reyes (expected 2019), Soumi De (expected 2020), Daniel Finstad (expected 2021).}\\
+
+\item[Undergraduate \\Students] {Almir Alemic, Nolan Brown, Erika Cowan, Amber Lenon, Patrick Miles, Seth Rothschild, Simonisa Selmon, Matthew Turner, \\ Samantha Usman, Peter Zimmerman}\\
+\end{entry}
+
+
+\section{Service}
+\begin{entry}
+\item[2017--] {Member of the Board of Trustees of Internet2}
+\item[2017--] {Faculty Representative to the Syracuse University Board of Trustees}
+\item[2016] {Grant Reviewer for Welsh Government, United Kingdom}
+\item[2016--] {Syracuse University Research Computing Advisory Committee}
+\item[2015--] {Member at Large, Executive Committee of the Topical Group in Gravity, American Physical Society}
+\item[2015--] {Member at Large, Executive Committee of the Division of Computational Physics, American Physical Society}
+\item[2014--] {NYSERNET Scientific Advisory Board}
+\item[2013--] {Director of the Physics Graduate Program, Syracuse University}
+\item[2012--2015] {Chair, LIGO Scientific Collaboration and Virgo Collaboration
+Compact Binary Coalescence Search Group}
+%\item[2011] {Syracuse University Physics Department Gradute Student Open Day}
+%\item[2010] {Syracuse University New Faculty Orientation Teaching Panel Participant}
+\item[2010--] {Grant Reviewer for National Science Foundation}
+\item[2009--2011] {Chair, Physics Department Web Committee, Syracuse University}
+%\item[2010] {Syracuse University New Faculty Orientation: Research and Funding Panel Participant}
+\item[2009] {Undergraduate Research Day Committee, Syracuse University}
+\item[2008--2011] {LIGO Scientific Collaboration Conference Committee}
+\item[2008] {Chair, Undergraduate Research Day Committee, Syracuse University}
+\item[2007--] {NASA Grant Reviewer}
+\item[2007--2008] {Syracuse University Freshman Adviser}
+\item[2007--] {LIGO Scientific Collaboration Computing Committee}
+\item[2007--] {Referee for Physical Review D, Physical Review Letters, Classical and Quantum Gravity}
+\item[2004--2007] {Compact Binary Search Review Committee, LIGO Scientific Collaboration}
+\end{entry}
+
+\section{Courses Taught}
+\begin{entry}
+\item[PHY424] {Electromagnetics I},\\
+{\small Fall 2016, Fall 2017}
+
+\item[PHY317] {Stellar and Interstellar Astrophysics},\\
+{\small Fall 2016}
+
+\item[PHY607] {Computational Physics},\\
+{\small Spring 2012}
+
+\item[AST101] {Introduction to Astronomy},\\
+{\small Fall 2008, Fall 2009, Fall 2010, Fall 2011, Fall 2013, Fall 2014}
+
+\item[PHY308] {Science and Computers II},\\
+{\small Spring 2009}
+
+\item[PHY221] {General Physics I},\\
+{\small Fall 2007}
+\end{entry}
+
+
+
+\section{Professional Development}
+\begin{entry}
+\item[April 2010] {NASA Center for Astronomy Education: Improving the
+Introductory Astronomy Survey Course for Non-Science Majors through Active
+Learning.}\\
+{\small 16 hour workshop}\\
+\item[October 2008] {NASA Center for Astronomy Education: Improving the
+Introductory Astronomy Survey Course for Non-Science Majors through Active
+Learning.}\\
+{\small 16 hour workshop}
+\end{entry}
+
+\begin{Research} % Optional inclusion of research interests
+\newpage
+
+\makeatletter
+%\renewcommand{\@cite}[2]{\unskip\raisebox{1ex}{\scriptsize#1}}
+%\renewcommand{\@biblabel}[1]{$^{#1}$}
+\makeatother
+\section{Research plan}
+
+\begin{bibunit}[cv-ref]
+\begin{indented}
+
+\input{plan_2006}
+
+\end{indented}
+
+
+\setlength{\columnsep}{0pt}
+\begin{multicols}{2}[\subsection*{References}]
+\footnotesize
+\raggedright
+%\raggedcolumns
+%\subsection*{References}
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \addtolength\labelwidth{2em}%
+            \leftmargin\labelwidth
+            \setlength{\labelsep}{1pt}%
+            \setlength{\itemsep}{0pt}%
+            \setlength{\parsep}{2pt plus 1pt}%
+            %\advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\labelenumi}{[\theenumi]}
+\renewcommand\bibitem\oldbibitem
+\renewcommand\urlprefix{}
+\putbib[papers.ref,papers.prep,papers.others]
+%\setcounter{unbalance}{2}
+\end{multicols}
+\end{bibunit}
+
+\end{Research}
+
+\begin{Research}
+
+\newpage
+\section{Teaching Statement}
+\begin{indented}
+
+\input{teaching_2006}
+
+\end{indented}
+
+\end{Research}
+
+%\newpage
+
+\iffalse
+\enlargethispage*{1000pt}
+\section{References}
+
+%\textit{Available on request.}
+
+\reference{Prof. Bruce Allen}%
+  {Albert-Einstein-Institut Hannover\\
+   Leibniz Universit\"at Hannover\\
+   Callinstr. 38, D-30167 Hannover, Germany%\\[\smallskipamount]
+   }%
+  {\textsc{e-mail}: & bruce.allen@aei.mpg.de \\
+   \textsc{phone}: & +49-511-762-17148 \\
+   \textsc{fax}: & +49-511-762-17182 % \\[\smallskipamount]
+   }
+
+%\reference{Prof. Barry Barish}%
+%  {LIGO Laboratory 18-34\\
+%   California Institute of Technology\\
+%   Pasadena, CA 91125, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & barish@ligo.caltech.edu \\
+%   \textsc{phone}: & +1 626 395 3853 \\
+%   \textsc{fax}: & +1 626 793 9594% \\[\smallskipamount]
+%   }
+%
+
+
+
+%\reference{Prof. Alan Weinstein}%
+%  {LIGO Laboratory 18-34\\
+%   California Institute of Technology\\
+%   Pasadena, CA 91125, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & ajw@ligo.caltech.edu \\
+%   \textsc{phone}: & +1 626 395 2166 \\
+%   \textsc{fax}: & +1 626 304 9843% \\[\smallskipamount]
+%   }
+%
+%\reference{Prof. Patrick Brady}%
+%  {Department of Physics\\
+%   University of Wisconsin--Milwaukee\\
+%   PO Box 413, Milwaukee, WI 53201, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & patrick@gravity.phys.uwm.edu \\
+%   \textsc{phone}: & +1 414 229 6508 \\
+%   \textsc{fax}: & +1 414 229 5589% \\[\smallskipamount]
+%   }
+%
+%\reference{Dr. Stan Whitcomb}%
+%  {LIGO Laborotary 18-34\\
+%   California Institute of Technology\\
+%   Pasadena, CA 91125, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & stan@ligo.caltech.edu \\
+%   \textsc{phone}: & +1 626 395 2131 \\
+%   \textsc{fax}: & +1 626 304 9834 % \\[\smallskipamount]
+%   }
+%
+\reference{Prof. Gabriela Gonz\'{a}lez}%
+  {Department of Physics and Astronomy\\
+   Louisiana State University\\
+   Baton Rouge, LA 70808, USA%\\[\smallskipamount]
+   }%
+  {\textsc{e-mail}: & gonzalez@lsu.edu \\
+   \textsc{phone}: & +1 225 578 0468 \\
+   \textsc{fax}: & +1 225 578 5855% \\[\smallskipamount]
+   }
+
+\reference{Prof. Scott Hughes}%
+  {Department of Physics\\
+   Massachusetts Institute of Technology \\
+   Cambridge, MA 02139, USA%\\[\smallskipamount]
+   }%
+  {\textsc{e-mail}: & sahughes@mit.edu \\
+   \textsc{phone}: & +1 617 258 8523 \\
+   \textsc{fax}: & +1 617 253 8554 % \\[\smallskipamount]
+  }
+%
+%\reference{Prof. Saul Teukolsky}%
+%  {608 Space Sciences Building\\
+%   Cornell University\\
+%   Ithaca, NY 14853, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & saul@astro.cornell.edu \\
+%   \textsc{phone}: & +1 607 255 5897 \\
+%   \textsc{fax}: & +1 607 255 2643 % \\[\smallskipamount]
+%   }
+%
+\reference{Prof. David Reitze}%
+  {LIGO Laborotary\\
+   California Institute of Technology\\
+   Pasadena, CA 91125, USA%\\[\smallskipamount]
+   }%
+  {\textsc{e-mail}: & reitze@ligo.caltech.edu \\
+   \textsc{phone}: & +1 626 395 6274 \\
+   \textsc{fax}: & +1 626 304 9834 % \\[\smallskipamount]
+  }
+%  {Department of Physics\\
+%   University of Florida\\
+%   P.O. Box 118440, Gainesville, FL 32611, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & reitze@phys.ufl.edu \\
+%   \textsc{phone}: & +1 352 392 3582 \\
+%   \textsc{fax}: & +1 352 392 3591% \\[\smallskipamount]
+%   }
+%  
+%\reference{Dr. Curt Cutler}%
+%  {NASA Jet Propulsion Laboratory\\
+%   M/S 169-327, 4800 Oak Grove Drive \\
+%   Pasadena, CA 91109, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & Curt.J.Cutler@jpl.nasa.gov  \\
+%   \textsc{phone}: & +1 818 393 3251 \\
+%   \textsc{fax}: & +1 818 354 8895 % \\[\smallskipamount]
+%   }
+%
+%\reference{Prof. Keith Riles}%
+%  {Department of Physics\\
+%   University of Michigan\\
+%   500 E. University Ave., Ann Arbor MI 48109, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & kriles@umich.edu \\
+%   \textsc{phone}: & +1 734 764 4652 \\
+%   \textsc{fax}: & +1 734 763 9694% \\[\smallskipamount]
+%   }
+
+%\reference{Prof. Peter Saulson}%
+%  {Physics Department\\
+%   Syracuse University\\
+%   Syracuse NY 13244, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & psaulson@syr.edu \\
+%   \textsc{phone}: & +1 315 443 3901 \\
+%   \textsc{fax}: & +1 315 443 9103% \\[\smallskipamount]
+%   }
+
+%\reference{Prof. Kip Thorne}%
+%  {Theoretical Astrophysics and Relativity\\
+%   California Institute of Technology\\
+%   Pasadena, CA 91125, USA%\\[\smallskipamount]
+%   }%
+%  {\textsc{e-mail}: & kip@tapir.caltech.edu \\
+%   \textsc{phone}: & +1 626 395 4597 \\
+%   \textsc{fax}: & +1 626 796 5675 % \\[\smallskipamount]
+%   }
+%\newpage
+\fi 
+
+\end{document}
